@@ -1,9 +1,8 @@
-import React, {useEffect, useReducer, useCallback, useState} from 'react';
+import React, {useState} from 'react';
 import {Body, Container, Header, Spinner, Title, Toast} from 'native-base';
 import {Actions} from "react-native-router-flux";
 import ListComponent, {ListItemType} from "../../shared/components/custom-list/list.component";
 import {StyleSheet, View} from "react-native";
-import useFetch from "../../shared/hooks/fetch.hook";
 import axios from "axios";
 import Pagination, {PaginationResponse} from "../../shared/components/pagination/pagination";
 
